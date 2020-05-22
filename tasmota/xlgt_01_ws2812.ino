@@ -183,7 +183,6 @@ void Ws2812UpdatePixelColor(int position, struct WsColor hand_color, float offse
   strip->SetPixelColor(mod_position, color);
 }
 
-<<<<<<< HEAD:sonoff/xplg_ws2812.ino
 void Ws2812UpdateHand(int position, uint8_t index, uint8_t odd)
 {
   uint32_t width = Settings.light_width;
